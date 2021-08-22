@@ -1,7 +1,7 @@
 import React from "react";
 import { FaInbox, FaRegCalendarAlt, FaRegCalendar } from "react-icons/fa";
 const Sidebar = ({ selectedTab, setSelectedTab }) => {
-  console.log({ selectedTab });
+  // console.log({ selectedTab });
   return (
     <div className="sidebar">
       <div onClick={() => setSelectedTab("INBOX")}>

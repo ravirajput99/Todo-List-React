@@ -80,7 +80,7 @@ const TaskItem = ({ selectedTab, tasks }) => {
     <div className="task-item-container">
       {tasksToRender.map((task, i) => {
         return (
-          <div className="task-item">
+          <div className="task-item" key={i}>
             <p>{task.text}</p>
             <p>{dateFnsFormat(new Date(task.date), FORMAT)}</p>
           </div>
