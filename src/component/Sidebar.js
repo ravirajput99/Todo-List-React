@@ -4,6 +4,7 @@ const Sidebar = ({ selectedTab, setSelectedTab }) => {
   // console.log({ selectedTab });
   return (
     <div className="sidebar">
+      <h1>Todo List</h1>
       <div onClick={() => setSelectedTab("INBOX")}>
         <FaInbox className="icon" />
         Inbox
